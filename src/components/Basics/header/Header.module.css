@@ -1,0 +1,55 @@
+/* Header tag */
+.Header{
+    width: 100%;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 10%;
+    background: #111;
+}
+
+/* Header logo */
+.Header_logo{
+    font-size: 1.6em;
+    font-weight: 600;
+    color: #DDD;
+}
+
+/* Header nav */
+.Header_nav{
+    display: flex;
+    gap: 2em;
+}
+.Header_nav button{
+    padding: .5em;
+    background: none;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: #FFF;
+    cursor: pointer;
+}
+
+@media (min-width: 992px){
+    /* Header nav trasitions */
+    .Header_nav button{
+        position: relative;
+    }
+    .Header_nav button::after{
+        content: '';
+        height: 2px;
+        width: 100%;
+        position: absolute;
+        bottom: 4px;
+        left: 0;
+        background: #FFF;
+        transform: scale(0);
+        transition-duration: .3s;
+        transition-property: transform;
+    }
+    .Header_nav button:hover::after{
+        transform-origin: center;
+        transform: scale(1);
+    }
+}

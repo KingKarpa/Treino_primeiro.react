@@ -1,0 +1,13 @@
+.Msg{
+    margin-top: .8em;
+}
+.Msg > p{
+    font-weight: 600;
+}
+
+.Msg_success{
+    color: #0b860b;
+}
+.Msg_error{
+    color: #860b0b;
+}

@@ -1,0 +1,50 @@
+.Form{
+    width: 75%;
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+.Form div{
+    display: flex;
+    flex-direction: column;
+    gap: .4em;
+}
+
+.Form_label{
+    font-weight: 600;
+    font-size: .95em;
+}
+
+.Form_input{
+    font-size: 1.1em;
+    padding: .1em;
+}
+.Form_textarea{
+    resize: none;
+}
+.Form_select{
+    max-width: 140px;
+    width: 50%;
+    padding: .1em;
+}
+
+.Form_submit{
+    padding: .3em;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    background: #2a2a2a;
+    color: #EEE;
+    transition-duration: .3s;
+    transition-property: background;
+}
+.Form_submit:hover{
+    background: #1a1a1a;
+}
+
+.uSubmit_disabled{
+    cursor: default;
+    background: #4a4a4a;
+    pointer-events: none;
+}

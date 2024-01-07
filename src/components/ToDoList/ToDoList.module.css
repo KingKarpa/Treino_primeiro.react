@@ -1,0 +1,16 @@
+.Main{
+    width: 100%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em 2em;
+    gap: 2em;
+}
+
+@media (min-width: 1024px){
+    .Main{
+        flex-direction: row;
+        align-items: normal;
+    }
+}
