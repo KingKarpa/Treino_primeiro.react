@@ -7,7 +7,7 @@ function Header(){
         <header className={styles.Header}>
             <div className={styles.Header_logo}>LOGO</div>
             <nav className={styles.Header_nav}>
-                <Link to="/">
+                <Link to="/primeiro-react">
                     <button>Lista</button>
                 </Link>
                 <Link to="/AdicionarTarefa">
