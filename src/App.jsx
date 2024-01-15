@@ -16,7 +16,7 @@ function App() {
       <Header />
       <Routes>
         <Route path='/primeiro-react' element={<ToDoList toDoList={toDoList} setToDoList={setToDoList} />} />
-        <Route path='/adicionarTarefa' element={<ToDoAdd toDoList={toDoList} setToDoList={setToDoList} />} />
+        <Route path='/primeiro-react/adicionarTarefa' element={<ToDoAdd toDoList={toDoList} setToDoList={setToDoList} />} />
       </Routes>
     </BrowserRouter>
   )

@@ -10,7 +10,7 @@ function Header(){
                 <Link to="/primeiro-react">
                     <button>Lista</button>
                 </Link>
-                <Link to="/AdicionarTarefa">
+                <Link to="/primeiro-react/adicionarTarefa">
                     <button>+ Tarefa</button>
                 </Link>
             </nav>
