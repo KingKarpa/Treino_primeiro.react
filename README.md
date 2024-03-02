@@ -1,9 +1,9 @@
-# Primeiro React -> ToDoList
+# primeiro.react
 
 Esse é meu primeiro projeto feito com **React**. <br>
 Esse código foi feito seguindo as ferramentas da biblioteca aprendidas no curso gratuito do [Matheus Battisti](https://www.youtube.com/@MatheusBattisti) juntamente com a ferramenta de desenvolvimento Vite.
 
-### [Teste ToDoList](https://kingkarpa.github.io/primeiro-react/)
+### [Teste ToDoList](https://kingkarpa.github.io/Treino_primeiro.react/)
 
 ## Sobre a Aplicação
 A aplicação ToDoList tem por objetivo prover uma lista de tarefas que podem ser adicionadas e removidas pelo usuário. <br>
